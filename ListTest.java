@@ -38,58 +38,58 @@ public class ListTest {
         assertEquals(check, ListExamples.filter(list, sc));
     }
 
-    @Test 
-    public void testMerge1() {
-        List<String> list = new ArrayList<>();
-        List<String> list2 = new ArrayList<>();
-        List<String> check = new ArrayList<>();
+//     @Test 
+//     public void testMerge1() {
+//         List<String> list = new ArrayList<>();
+//         List<String> list2 = new ArrayList<>();
+//         List<String> check = new ArrayList<>();
 
-        list.add("a");
-        list2.add("b");
-        check.add("a");
-        check.add("b");
+//         list.add("a");
+//         list2.add("b");
+//         check.add("a");
+//         check.add("b");
 
-        assertEquals(check, ListExamples.merge(list, list2));
-    }
+//         assertEquals(check, ListExamples.merge(list, list2));
+//     }
 
-    @Test 
-    public void testMerge2() {
-        List<String> list = new ArrayList<>();
-        List<String> list2 = new ArrayList<>();
-        List<String> check = new ArrayList<>();
+//     @Test 
+//     public void testMerge2() {
+//         List<String> list = new ArrayList<>();
+//         List<String> list2 = new ArrayList<>();
+//         List<String> check = new ArrayList<>();
 
-        list.add("a");
-        list2.add("b");
-        list2.add("c");
-        check.add("a");
-        check.add("b");
-        check.add("c");
+//         list.add("a");
+//         list2.add("b");
+//         list2.add("c");
+//         check.add("a");
+//         check.add("b");
+//         check.add("c");
 
-        assertEquals(check, ListExamples.merge(list, list2));
-    }
+//         assertEquals(check, ListExamples.merge(list, list2));
+//     }
 
-    @Test 
-    public void testMerge3() {
-        List<String> list = new ArrayList<>();
-        List<String> list2 = new ArrayList<>();
-        List<String> check = new ArrayList<>();
+//     @Test 
+//     public void testMerge3() {
+//         List<String> list = new ArrayList<>();
+//         List<String> list2 = new ArrayList<>();
+//         List<String> check = new ArrayList<>();
 
-        list.add("a");
-        list2.add("b");
-        list.add("c");
-        check.add("a");
-        check.add("b");
-        check.add("c");
+//         list.add("a");
+//         list2.add("b");
+//         list.add("c");
+//         check.add("a");
+//         check.add("b");
+//         check.add("c");
 
-        assertEquals(check, ListExamples.merge(list, list2));
-    }
+//         assertEquals(check, ListExamples.merge(list, list2));
+//     }
 
-    @Test 
-    public void testMerge4() {
-        List<String> list = new ArrayList<>();
-        List<String> list2 = new ArrayList<>();
-        List<String> check = new ArrayList<>();
+//     @Test 
+//     public void testMerge4() {
+//         List<String> list = new ArrayList<>();
+//         List<String> list2 = new ArrayList<>();
+//         List<String> check = new ArrayList<>();
 
-        assertEquals(check, ListExamples.merge(list, list2));
-    }
-}
+//         assertEquals(check, ListExamples.merge(list, list2));
+//     }
+ }

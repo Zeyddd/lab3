@@ -16,6 +16,7 @@ public class ArrayExamples {
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
+    // Fix for bug I added
     for(int i = 0; i < arr.length; i++){
       newArray[i] = arr[i];
     }
